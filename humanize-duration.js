@@ -96,6 +96,14 @@
       m: function (c) { return 'minute' + (c === 1 ? '' : 's') },
       s: function (c) { return 'second' + (c === 1 ? '' : 's') },
       ms: function (c) { return 'millisecond' + (c === 1 ? '' : 's') },
+      Y: function (c) { return 'Year' + (c === 1 ? '' : 's') },
+      MO: function (c) { return 'Month' + (c === 1 ? '' : 's') },
+      W: function (c) { return 'Week' + (c === 1 ? '' : 's') },
+      D: function (c) { return 'Day' + (c === 1 ? '' : 's') },
+      H: function (c) { return 'Hour' + (c === 1 ? '' : 's') },
+      M: function (c) { return 'Minute' + (c === 1 ? '' : 's') },
+      S: function (c) { return 'Second' + (c === 1 ? '' : 's') },
+      MS: function (c) { return 'Millisecond' + (c === 1 ? '' : 's') },
       decimal: '.'
     },
     es: {
